@@ -30,8 +30,9 @@ const allUsers = [
 ];
 
 const getUsersWithFriend = (users, friendName) => {
-  const friend = users.friends.filter(user => friendName);
-  return friend;
+  let friend = [];
+  return friend = users.filter(users => users.friends.includes(friendName));
+  
 }
 
 
