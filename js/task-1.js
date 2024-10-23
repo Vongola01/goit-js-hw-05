@@ -1,5 +1,5 @@
 const getUserNames = (users) => {
-  return users.flatMap(users => {
+  return users.map(users => {
     return users.name;
   });
 }
